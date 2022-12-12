@@ -1,3 +1,8 @@
 site_name: DVL 文档
+site_url: https://saudadestenko.github.io/docs_for_dvl/
+site_author: 墨染
+site_description: 站点描述
+copyrightL: 墨染网络工作室
+repo_url: https://github.com/SaudadesTenko/docs_for_dvl
 theme:
   name: 'material'
