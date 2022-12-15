@@ -1,6 +1,6 @@
 # DVL 说明文档
 
-### 下载 MkDocs
+### 下载 MkDocs 脚手架
 
 ```
 pip install mkdocs
