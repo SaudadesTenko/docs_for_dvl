@@ -1,2 +1,11 @@
-# 首页
-这个是首页
+---
+hide:
+- navigation
+- toc
+- footer
+---
+
+# 简介
+
+这个是简介
+

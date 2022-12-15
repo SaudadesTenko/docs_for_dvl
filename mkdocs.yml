@@ -1,5 +1,5 @@
 # Project Information
-site_name: Docs For DVL
+site_name: DVL 说明文档
 site_author: 墨染(MoRan)
 site_description: Docs For DVL 是作者的毕业设计相关简介及使用说明
 site_url: https://saudadestenko.github.io/docs_for_dvl/
@@ -8,16 +8,54 @@ site_url: https://saudadestenko.github.io/docs_for_dvl/
 repo_name: docs_for_dvl
 repo_url: https://github.com/SaudadesTenko/docs_for_dvl
 
-# Copyright
-copyright: Copyright © 2022 墨染(MoRan)
-
 # Contents
 nav:
   - 首页: 'index.md'
   - 关于: 'about.md'
-  - 协议: 'license.md'
 
 # Theme
 theme:
   name: 'material'
   language: zh
+  icon:
+    edit: material/file-edit-outline
+  # 默认原色
+  primary: indigo
+  palette:
+    # 鼠标 Hover 颜色
+    - accent: indigo
+    # 浅色模式
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到深色模式
+    # 深色模式
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切换到灯光模式
+  features:
+    # 导航选项卡
+    - navigation.tabs
+    # 即时加载
+    - navigation.instant
+    # 启用目录锚点跟随
+    - toc.follow
+    # 返回顶部按钮
+    - navigation.top
+  plugins:
+    - # 搜索
+    - search:
+      # 增加中文支持
+      jieba_dict: dict.txt
+
+
+# Copyright
+copyright: Copyright © 2022 墨染
+
+# Customization
+extra:
+  # 跳转链接
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SaudadesTenko
