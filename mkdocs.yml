@@ -19,6 +19,11 @@ theme:
   language: zh
   icon:
     edit: material/file-edit-outline
+  font:
+    # 谷歌字体
+    text: Roboto
+    # 等宽字体（用于代码）
+    code: Roboto Mono
   # 默认原色
   primary: indigo
   palette:
@@ -54,6 +59,10 @@ theme:
 copyright: Copyright © 2022 墨染
 
 # Customization
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/extra.js
 extra:
   # 跳转链接
   social:
