@@ -17,6 +17,7 @@ nav:
 theme:
   name: 'material'
   language: zh
+  logo: assets/logo.png
   icon:
     edit: material/file-edit-outline
   font:
